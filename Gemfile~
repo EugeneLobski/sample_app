@@ -5,6 +5,7 @@ source 'http://rubygems.org'
 
   group :development do
     gem 'rspec-rails', '2.5.0'
+    gem 'annotate-models', '1.0.4'
   end
 
   group :test do
@@ -15,5 +16,6 @@ source 'http://rubygems.org'
 
   group :development, :test do
     gem 'ZenTest'
+    gem 'factory_girl_rails', '1.0'
   end
 
